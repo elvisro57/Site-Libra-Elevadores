@@ -540,6 +540,20 @@ a[aria-label="Fale conosco pelo WhatsApp"]::after {
   background-color: #34d399;
 }
 
+/* Mobile hero spacing adjustment (lift texts & buttons up on mobile only) */
+@media (max-width: 767px) {
+  .hero-content-wrap {
+    padding-top: 2.25rem !important;
+    padding-bottom: 3.5rem !important;
+  }
+  .hero-content-wrap h1 {
+    margin-top: 1rem !important;
+  }
+  .hero-content-wrap .mt-10 {
+    margin-top: 1.5rem !important;
+  }
+}
+
 
 
 
