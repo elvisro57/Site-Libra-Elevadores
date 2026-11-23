@@ -1,0 +1,20 @@
+{
+  "name": "site-libra-elevadores",
+  "version": "1.0.0",
+  "description": "Website institucional oficial da Libra Elevadores - Elevadores, Manutenção e Modernização no Paraná",
+  "main": "serve.js",
+  "scripts": {
+    "start": "node serve.js",
+    "serve": "node serve.js",
+    "build": "node build_site.js"
+  },
+  "keywords": [
+    "libra",
+    "elevadores",
+    "manutencao",
+    "modernizacao",
+    "parana"
+  ],
+  "author": "Libra Elevadores",
+  "license": "ISC"
+}
